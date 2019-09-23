@@ -1,0 +1,30 @@
+
+
+header {
+  color: black;
+  background-color: red;
+
+}
+main
+{color: blue;
+background-color: grey;}
+
+nav{
+  color: red;
+  background-color: white;
+}
+
+footer{
+  color: white;
+  background-color: black;
+}
+
+
+img {
+  max-width: 45%;
+ height: auto;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
