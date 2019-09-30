@@ -1,0 +1,47 @@
+
+
+header {
+  color: black;
+  background-color: red;
+  text-align: center;
+
+}
+main
+{color: blue;
+background-color: grey;}
+
+nav{
+  color: red;
+  background-color: white;
+}
+
+footer{
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+
+img {
+  max-width: 45%;
+ height: auto;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
+
+#info {
+  background-color: yellow
+}
+
+.homeparagraphs {
+  background-color: white
+}
+
+.question {
+  text-align: center;
+  color: red;
+  background-color: white;
+  font-weight: bold;
+}
