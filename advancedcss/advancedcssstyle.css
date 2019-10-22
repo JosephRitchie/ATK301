@@ -1,0 +1,116 @@
+div {
+  background-color: white;
+  margin: auto;
+  border: 2px solid black;
+  width: 960px;
+}
+
+body {
+    background-image:url(8_pic1.png);
+    font-family: helvetica;
+}
+
+main {
+  width: 710px;
+  margin-left: 230px;
+  padding: 10px;
+  margin-right:  10px;
+}
+
+nav {
+  float: left;
+  padding-top: 20px;
+
+}
+
+img {
+  float: left;
+  width: 485px;
+  border: 3px solid black;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+h2 {
+  border-bottom: 3px solid black;
+  padding-bottom: 20px;
+  height: 20px;
+
+}
+
+header {
+  background-color: black;
+  color: white;
+  margin: 10px;
+  height: 40px;
+  padding-top: 1px;
+  padding-bottom: 40px;
+
+
+}
+
+h1{
+   }
+
+li {
+  background-color: red;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  width: 190px;
+}
+
+li:hover {
+  background-color: black;
+  /*margin: 10px;
+  padding: 10px;
+  color: white;
+  width: 190px;*/
+
+
+}
+
+
+.black {
+    text-decoration: none;
+    color: white;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+.boldp {
+  font-weight: bold;
+  font-family: georgia;
+}
+
+
+
+footer {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: verdana;
+}
+
+
+.words {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+.words:hover {
+  color: blue;
+  text-decoration: underline;
+}
