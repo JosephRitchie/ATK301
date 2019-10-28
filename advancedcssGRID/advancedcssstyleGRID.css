@@ -1,0 +1,118 @@
+div {
+  background-color: white;
+  margin: auto;
+  border: 2px solid black;
+  width: 960px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 100px auto 75px;
+}
+
+body {
+    background-image:url(8_pic1.png);
+    font-family: helvetica;
+}
+
+main {
+  /*width: 710px;
+  margin-left: 230px;
+  padding: 10px;
+  margin-right:  10px;*/
+  grid-column: span 3;
+}
+
+nav {
+  /*float: left;*/
+  grid-column: span 1;
+  padding-top: 10px;
+
+}
+
+img {
+  float: left;
+  width: 500px;
+  border: 2px solid black;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+h2 {
+  border-bottom: 2px solid black;
+}
+
+header {
+  grid-column: span 4;
+  background-color: black;
+  color: white;
+  margin: 10px;
+  height: 80px;
+}
+
+h1{
+  padding: 5px;
+}
+
+li {
+  background-color: red;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  width: 190px;
+}
+
+li:hover {
+  background-color: black;
+  /*margin: 10px;
+  padding: 10px;
+  color: white;
+  width: 190px;*/
+
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+footer {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: verdana;
+    grid-column: span 4;
+}
+
+.black {
+    text-decoration: none;
+    color: white;
+    }
+
+
+.boldp {
+  font-weight: bold;
+  font-family: georgia;
+}
+
+.words {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.words:hover {
+    color: blue;
+    text-decoration: underline;
+    }
